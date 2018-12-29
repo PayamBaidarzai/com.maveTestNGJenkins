@@ -12,5 +12,10 @@ public class BaseClass {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.google.com/");
 	}
+	
+	@Test 
+	public void khan() {
+		System.err.println("this is the only for test");
+	}
 
 }
